@@ -101,10 +101,12 @@ export PATH=/opt/anaconda/bin/mybin/:$PATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sudo='sudo '
+alias sudo='sudo -E '
 alias vim='nvim'
 alias ra="ranger"
+alias sra='sudo ranger'
 alias c='clear'
+alias n='neofetch'
 alias shellproxy="export http_proxy='localhost:1081';export https_proxy='localhost:1081'"
 alias killall="tmux kill-server"
 alias news="tmux new -s"
@@ -114,6 +116,7 @@ alias mux="tmuxinator"
 alias call="source activate"
 alias hangup="conda deactivate"
 alias matlab="/home/xuwanqian/Programs/MATLAB/R2018b/bin/matlab"
+alias mat="matlab -nodesktop -nosplash"
 alias gpython="optirun python"
 alias wlan='nmtui'
 alias rewlan='sudo systemctl restart NetworkManager'
