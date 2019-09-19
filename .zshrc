@@ -80,7 +80,7 @@ export EDITOR='nvim'
 # export MANPATH="/usr/local/man:$MANPATH"
 export PYTHONPATH=~/.mypymodule
 export PATH=/opt/anaconda/bin/mybin/:$PATH
-
+export PATH=/home/xuwanqian/.gem/ruby/2.6.0/bin:$PATH
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 # Preferred editor for local and remote sessions
@@ -101,12 +101,12 @@ export PATH=/opt/anaconda/bin/mybin/:$PATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sudo='sudo -E '
-alias vim='nvim'
+alias sudo="sudo -E "
+alias vim="nvim"
 alias ra="ranger"
-alias sra='sudo ranger'
-alias c='clear'
-alias n='neofetch'
+alias sra="sudo ranger"
+alias c="clear"
+alias n="neofetch"
 alias shellproxy="export http_proxy='localhost:1081';export https_proxy='localhost:1081'"
 alias killall="tmux kill-server"
 alias news="tmux new -s"
@@ -115,9 +115,19 @@ alias splitwindow="tmux split-window -h;tmux split-window -v"
 alias mux="tmuxinator"
 alias call="source activate"
 alias hangup="conda deactivate"
-alias matlab="/home/xuwanqian/Programs/MATLAB/R2018b/bin/matlab"
+alias matlab="$HOME/Programs/MATLAB/R2018b/bin/matlab"
 alias mat="matlab -nodesktop -nosplash"
 alias gpython="optirun python"
-alias wlan='nmtui'
-alias rewlan='sudo systemctl restart NetworkManager'
-alias duh='du -x -h --max-depth=1'
+alias wlan="nmtui"
+alias rewlan="sudo systemctl restart NetworkManager"
+alias duh="du -x -h --max-depth=1"
+alias music="ncmpcpp"
+#  ____  _____ ______     _______ ____  ____  
+# / ___|| ____|  _ \ \   / / ____|  _ \/ ___| 
+# \___ \|  _| | |_) \ \ / /|  _| | |_) \___ \ 
+#  ___) | |___|  _ < \ V / | |___|  _ < ___) |
+# |____/|_____|_| \_\ \_/  |_____|_| \_\____/ 
+#
+#
+alias server-seattle="bash $HOME/Programs/script/vultrSS_seattle.sh"
+alias server-seattle-root="bash $HOME/Programs/script/vultrSS_seattle_root.sh"
