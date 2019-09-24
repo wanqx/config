@@ -8,7 +8,7 @@ export ZSH="/home/xuwanqian/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="biraa"
 stty -ixon
 
 # Set list of themes to pick from when loading at random
@@ -115,10 +115,10 @@ alias splitwindow="tmux split-window -h;tmux split-window -v"
 alias mux="tmuxinator"
 alias call="source activate"
 alias hangup="conda deactivate"
-alias matlab="$HOME/Programs/MATLAB/R2018b/bin/matlab"
-alias mat="matlab -nodesktop -nosplash"
+alias mat="$HOME/Programs/MATLAB/R2018b/bin/matlab -nodesktop -nosplash"
 alias gpython="optirun python"
 alias wlan="nmtui"
+alias stopwlan="sudo systemctl stop NetworkManager"
 alias rewlan="sudo systemctl restart NetworkManager"
 alias duh="du -x -h --max-depth=1"
 alias music="ncmpcpp"
@@ -129,5 +129,5 @@ alias music="ncmpcpp"
 # |____/|_____|_| \_\ \_/  |_____|_| \_\____/ 
 #
 #
-alias server-seattle="bash $HOME/Programs/script/vultrSS_seattle.sh"
-alias server-seattle-root="bash $HOME/Programs/script/vultrSS_seattle_root.sh"
+alias server-sv="bash $HOME/Programs/script/vultrSS_SV.sh"
+alias server-sv-root="bash $HOME/Programs/script/vultrSS_SV_root.sh"
