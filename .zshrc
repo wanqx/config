@@ -69,7 +69,8 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z sublime)
+# plugins=(git z sublime zsh-syntax-highlighting)
+plugins=(git z sublime cp zsh-autosuggestions zsh-syntax-highlighting)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -102,6 +103,7 @@ export PATH=/home/xuwanqian/.gem/ruby/2.6.0/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sudo="sudo -E "
+alias cp="cpv"
 alias vim="nvim"
 alias ra="ranger"
 alias sra="sudo ranger"
